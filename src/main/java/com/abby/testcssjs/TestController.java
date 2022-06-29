@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 // @RequestMapping("/admin")
 public class TestController {
-    @GetMapping("/test")
+    @GetMapping("/")
     public String test() {
-        return "css_test";
+        return "test1";
     }
 }
